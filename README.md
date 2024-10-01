@@ -9,6 +9,10 @@
   </ul>
 
   <p>Created Chat support User interface for real-time assistance.</p>
+
+  <h3>Challenges 🤞 </h3>
+  <p>I have faced challenges related to checkmark after completing first to and so on.</p>
+  
  
  <h2> Prerequisites </h2>
   <p>To follow along with this repo, you will need to have the following installed on your machine:</p>
