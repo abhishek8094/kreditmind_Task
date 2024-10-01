@@ -11,7 +11,7 @@
   <p>Created Chat support User interface for real-time assistance.</p>
 
   <h3>Challenges 🤞 </h3>
-  <p>I have faced challenges related to checkmark after completing first to and so on.</p>
+  <p>I have faced challenges related to checkmark after completing stepfirst to and so on.</p>
   
  
  <h2> Prerequisites </h2>
