@@ -67,6 +67,7 @@ module.exports = {
 - [React](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Hooks](https://react.dev/reference/react/hooks)
+- [React icons](https://react.dev/reference/react/hooks)
   
 Thank you for reading this. If you have any questions, feel free to reach out to me on [Email](https://mail.google.com/mail/u/0/#inbox) or [LinkedIn](https://www.linkedin.com/in/abhishek8094/).
 
