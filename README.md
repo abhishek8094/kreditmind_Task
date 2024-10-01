@@ -4,8 +4,8 @@
 
  <h3>Features includes 🚀</h3>
   <ul>
-   <li>Document Upload</li>  <p>Users can upload identification documents, financial statements, bank statements, Bureau Data and GST information.</p>
-    <li>Progress Tracking</li>  <p> Visual indicators to show the status of document submissions.</p>
+   <li><b>Document Upload</b></li>  <p>Users can upload identification documents, financial statements, bank statements, Bureau Data and GST information.</p>
+    <li><b>Progress Tracking</b></li>  <p> Visual indicators to show the status of document submissions.</p>
   </ul>
 
   <p>Created Chat support User interface for real-time assistance.</p>
