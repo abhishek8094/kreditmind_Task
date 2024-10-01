@@ -5,7 +5,7 @@ import ChatUs from "./ChatUs";
 const Welcome = () => {
   return (
     <div className="flex flex-col lg:flex-row mt-10 lg:mt-20">
-      <div className="border-solid border-[1.5px] w-full lg:w-[73%]">
+      <div className="border-solid border-t-[1.5px] border-r-[1.5px] w-full lg:w-[75%]">
         <div className="px-6 lg:px-20 mt-4">
           <h1 className="text-[22px] lg:text-[26px] font-bold text-[#000000] leading-8 lg:leading-10 letter-spacing-normal">
             Welcome John

@@ -9,7 +9,7 @@ const Financial = () => {
   };
 
   return (
-    <div className="border rounded-lg p-6 w-full sm:w-[540px] md:w-[640px] lg:w-[720px] mt-7 mx-auto">
+    <div className="border-solid border-[1.5px] rounded-lg p-6 w-full sm:w-[540px] md:w-[640px] lg:w-[720px] mt-7 mx-auto">
       <div className="text-green-500 mb-4 w-10 p-2 h-10 rounded-full bg-[#f2f4f7]">
         <GrFormUpload className="text-2xl" />
       </div>
