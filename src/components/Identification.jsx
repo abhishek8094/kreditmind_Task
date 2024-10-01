@@ -14,8 +14,8 @@ const UploadDocument = () => {
   };
 
   return (
-    <div className="flex mt-4 gap-5 ">
-      <div className="border-solid border-[1.5px] rounded-lg p-6 w-[350px]">
+    <div className="flex flex-col md:flex-row mt-4 gap-5">
+      <div className="border-solid border-[1.5px] rounded-lg p-6 w-full max-w-[350px]">
         <div className="text-green-500 mb-4 w-10 p-2 h-10 rounded-full bg-[#f2f4f7]">
           <GrFormUpload className="text-2xl" />
         </div>
@@ -24,7 +24,7 @@ const UploadDocument = () => {
           Browse or drag and drop file here
         </p>
 
-        <label className=" text-[#21c876] font-semibold text-sm">
+        <label className="text-[#21c876] font-semibold text-sm">
           Browse file
           <input
             type="file"
@@ -40,7 +40,7 @@ const UploadDocument = () => {
         )}
       </div>
 
-      <div className="border-solid border-[1.5px] rounded-lg p-4 w-[350px]">
+      <div className="border-solid border-[1.5px] rounded-lg p-6 w-full max-w-[350px]">
         <div className="text-green-500 mb-4 w-10 p-2 h-10 rounded-full bg-[#f2f4f7]">
           <GrFormUpload className="text-2xl" />
         </div>
@@ -49,8 +49,7 @@ const UploadDocument = () => {
           Browse or drag and drop file here
         </p>
 
-        {/* Custom browse file button */}
-        <label className=" text-[#21c876] font-semibold text-sm">
+        <label className="text-[#21c876] font-semibold text-sm">
           Browse file
           <input
             type="file"

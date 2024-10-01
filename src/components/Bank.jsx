@@ -1,14 +1,15 @@
 import { GrFormUpload } from "react-icons/gr";
 import { useState } from "react";
+
 const Bank = () => {
   const [bankFile, setBankFile] = useState(null);
 
   const handleBankChange = (e) => {
     setBankFile(e.target.files[0]);
   };
-  
+
   return (
-    <div className="border rounded-lg p-6  w-[720px]  mt-7">
+    <div className="border rounded-lg p-6 w-full max-w-lg mt-7 mx-auto md:w-[720px]">
       <div className="text-green-500 mb-4 w-10 p-2 h-10 rounded-full bg-[#f2f4f7]">
         <GrFormUpload className="text-2xl" />
       </div>
@@ -17,8 +18,7 @@ const Bank = () => {
         Browse or drag and drop file here
       </p>
 
-      {/* Custom browse file button */}
-      <label className=" text-[#21c876] font-semibold text-sm">
+      <label className="text-[#21c876] font-semibold text-sm cursor-pointer">
         Browse file
         <input
           type="file"

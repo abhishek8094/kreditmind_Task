@@ -9,7 +9,7 @@ const Financial = () => {
   };
 
   return (
-    <div className="border rounded-lg p-6  w-[720px] mt-7">
+    <div className="border rounded-lg p-6 w-full sm:w-[540px] md:w-[640px] lg:w-[720px] mt-7 mx-auto">
       <div className="text-green-500 mb-4 w-10 p-2 h-10 rounded-full bg-[#f2f4f7]">
         <GrFormUpload className="text-2xl" />
       </div>
@@ -18,7 +18,7 @@ const Financial = () => {
         Browse or drag and drop file here
       </p>
 
-      <label className=" text-[#21c876] font-semibold text-sm">
+      <label className="text-[#21c876] font-semibold text-sm cursor-pointer">
         Browse file
         <input
           type="file"
