@@ -4,23 +4,11 @@
 
  <h3>Features includes 🚀</h3>
   <ul>
-   <li><b>toggle ⏺️</b></li>
-   <li>Add to Wishlist 💗</li>
-   <li>Remove from Wishlist 🤍</li>
-   <li>Add to Cart </li>
-   <li>Remove from Cart </li>
-   <li>Item alerady in cart </li>
-   <li>Increase and decrease Items  with quantity 📈 📉 </li>
-   <li>Delete the item ❌</li>
-   <li><b>Signup 🔑</b></li> 
-   <li><b>Login ✅</b> </li>
-   <li>Order </li>
-   <li><b>Payment integration 💰</b></li>
-   <li>Search the products 🔎 </li>
-   <li>Filter the products </li>
-   <li>Sorting the price</li>
-   <li>Reset</li>
+   <li>Document Upload</li> : <p>Users can upload identification documents, financial statements, bank statements, Bureau Data and GST information.</p>
+    <li>Progress Tracking</li> : <p> Visual indicators to show the status of document submissions.</p>
   </ul>
+
+  <p>Created Chat support User interface for real-time assistance.</p>
  
  <h2> Prerequisites </h2>
   <p>To follow along with this repo, you will need to have the following installed on your machine:</p>
