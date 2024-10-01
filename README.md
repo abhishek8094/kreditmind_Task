@@ -1,6 +1,6 @@
 # kreditmind_Task
  <h2> Introduction </h2>
- <p> Today I have completed my task who was provided by Kreditmind Which It has user interface like provided by assignment .I have used the tech stack HTML5, Tailwind CSS , Javascript and ReactJs .I have completed better UI . In this project I have learned about so many features. So </p>
+ <p> Today I have completed my task who was provided by Kreditmind Which It has user interface like provided by assignment .I have used the tech stack HTML5, Tailwind CSS , Javascript and ReactJs .I have completed better UI . In this project I have learned about some features. So </p>
 
  <h3>Features includes 🚀</h3>
   <ul>
