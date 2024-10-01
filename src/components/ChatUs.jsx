@@ -1,39 +1,46 @@
 import { MdOutlinePersonOutline } from "react-icons/md";
-import { FiMessageSquare } from "react-icons/fi";
+import { LuMessageSquare } from "react-icons/lu";
 import { FiSend } from "react-icons/fi";
+
 const ChatUs = () => {
   return (
-    <div className="border-y-2 w-[27%] ">
+    <div className="border-y-[1.5px] w-[27%] ">
       <h3 className="p-4 text-xl text-[#000000] font-bold">Chat with us</h3>
       <div className="flex justify-around items-center">
-        <div className="w-16 bg-black h-1"></div>
-        <span>Today</span>
-        <div className="w-16 bg-black h-1"></div>
+        <div className="w-20 bg-[#f2f4f7] h-[1px]"></div>
+        <span className="text-xs text-[#7d7d7d]">Today</span>
+        <div className="w-20 bg-[#f2f4f7] h-[1px]"></div>
       </div>
-      <div className="flex justify-evenly mt-4">
-        <p className="bg-[#00c062] rounded-lg p-3 w-[230px] text-white text-xs">
+      <div className="flex relative left-16 mt-4">
+        <p className="bg-[#00c062] rounded-lg p-3 w-[207px] text-[#a9f1ce] text-xs">
           I do not file GST. Is there any other alternative to that?
         </p>
-        <MdOutlinePersonOutline className="text-2xl bg-[#f2fbf9] w-10 h-10 rounded-full" />
+        <MdOutlinePersonOutline className="text-sm bg-[#f2fbf7] text-[#a7aaa9] ml-2 p-2 w-10 h-10 rounded-full" />
       </div>
-      <div className="flex justify-evenly mt-4">
-        <FiMessageSquare className=" bg-[#f2fbf9] w-8 h-10 rounded-full" />
-        <p className="bg-[#00c062] rounded-lg p-3 w-[230px] bg-[#edf3f1] text-xs">
+      <div className="flex mr-3 justify-evenly mt-4">
+        <div className=" bg-[#edf3f1] p-2 w-8 h-8 rounded-full">
+          <LuMessageSquare className="text-[#2ac97b] w-6 h-6 relative right-1 bottom-1" />
+        </div>
+
+        <div class="bg-[#edf3f1] font-medium rounded-lg p-3 w-[230px] text-xs">
           If you do not file GST because your annual turnover is less than 40
           lakhs, you can submit your ITR returns for the past 2 years. Let me
           know if there is anything else I can help you with.
-        </p>
+        </div>
       </div>
-      <div className="flex justify-evenly mt-4">
-        <p className="bg-[#00c062] rounded-lg p-3 w-[230px] text-white text-xs">
+      <div className="flex relative left-16 mt-4">
+        <p className="bg-[#00c062] rounded-lg p-3 w-[207px] text-[#a9f1ce] text-xs">
           Do I need to upload bank statements for all my accounts?
         </p>
-        <MdOutlinePersonOutline className="text-2xl bg-[#f2fbf9] w-10 h-10 rounded-full" />
+        <MdOutlinePersonOutline className="text-sm bg-[#f2fbf7] text-[#a7aaa9] ml-2 p-2 w-10 h-10 rounded-full" />
       </div>
 
       <div className="flex justify-evenly mt-4">
-        <FiMessageSquare className=" bg-[#f2fbf9] w-8 h-10 rounded-full" />
-        <p className="bg-[#00c062] rounded-lg p-3 w-[230px] bg-[#edf3f1] text-xs">
+        <div className=" bg-[#edf3f1] p-2 w-8 h-8 rounded-full">
+        <LuMessageSquare className="text-[#2ac97b] w-6 h-6 relative right-1 bottom-1" />
+        </div>
+        
+        <p className="bg-[#edf3f1] font-medium rounded-lg p-3 w-[230px] text-xs">
           You need to upload 12 months of statement for your revenue account.
           Uploading more bank statements increases your chances of approval and
           might also increase the loan amount you re eligible for.

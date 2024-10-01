@@ -6,8 +6,9 @@ const Bank = () => {
   const handleBankChange = (e) => {
     setBankFile(e.target.files[0]);
   };
+  
   return (
-    <div className="border rounded-lg p-4  w-[695px]  m-4">
+    <div className="border rounded-lg p-6  w-[720px]  mt-7">
       <div className="text-green-500 mb-4 w-10 p-2 h-10 rounded-full bg-[#f2f4f7]">
         <GrFormUpload className="text-2xl" />
       </div>
