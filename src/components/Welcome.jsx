@@ -2,11 +2,28 @@ import { FaAngleRight } from "react-icons/fa";
 import { MdOutlinePersonOutline } from "react-icons/md";
 import { FiMessageSquare } from "react-icons/fi";
 import { FiSend } from "react-icons/fi";
+import { GoChevronLeft } from "react-icons/go";
+import DocumentArea from "./DocumentArea";
+import { useState } from "react";
 
 const Welcome = () => {
+  const [currentStep, setCurrentStep] = useState(1);
+
+  const handleBack = () => {
+    if (currentStep > 1) {
+      setCurrentStep(currentStep - 1);
+    }
+  };
+
+  const handleNext = () => {
+    if (currentStep < 5) {
+      setCurrentStep(currentStep + 1);
+    }
+  };
+
   return (
     <div className="flex mt-20">
-      <div className="border-solid border-2 w-[70%] ">
+      <div className="border-solid border-2 w-[73%] ">
         <div className="px-20 mt-4">
           <h1 className="text-2xl font-bold text-[#14151a]">Welcome John</h1>
           <p className="text-[#9b9b9b] py-1 font-sm">
@@ -22,10 +39,33 @@ const Welcome = () => {
               Show Progress <FaAngleRight className="mt-1 " />
             </span>
           </div>
-          <div></div>
+          <div>
+            <DocumentArea
+              currentStep={currentStep}
+              setCurrentStep={setCurrentStep}
+            />
+          </div>
+
+          <div className="flex justify-between items-center relative top-16">
+            <button
+              onClick={handleBack}
+              className="border border-gray-200 p-3 w-[90px] flex justify-center items-center rounded-lg cursor-pointer "
+              disabled={currentStep === 1}
+            >
+              <GoChevronLeft className="mr-2" />
+              Back
+            </button>
+            <button
+              onClick={handleNext}
+              className="bg-[#00c062] text-[white] p-3 w-[80px] rounded-lg cursor-pointer"
+              disabled={currentStep === 5}
+            >
+              Next
+            </button>
+          </div>
         </div>
       </div>
-      <div className="border-y-2 w-[30%] ">
+      <div className="border-y-2 w-[27%] ">
         <h3 className="p-4 text-xl text-[#000000] font-bold">Chat with us</h3>
         <div className="flex justify-around items-center">
           <div className="w-16 bg-black h-1"></div>
@@ -62,7 +102,7 @@ const Welcome = () => {
           </p>
         </div>
 
-        <div className="border-2 mt-36  mx-4 flex justify-between p-6 items-center h-14 mb-2 rounded-lg">
+        <div className="border-2 mt-60  mx-4 flex justify-between p-6 items-center h-14 mb-2 rounded-lg">
           <h4 className="text-[#7d7d7d] text-sm">Write message</h4>
           <div className="bg-[#00c062] rounded-full w-9 h-9 flex items-center justify-center text-[white]">
             <FiSend />
