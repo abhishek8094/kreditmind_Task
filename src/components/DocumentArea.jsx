@@ -1,5 +1,9 @@
 
-import UploadDocument from "./UploadDocument";
+import Identification from "./Identification";
+import Financial from "./Financial";
+import Bank from "./Bank";
+import Gst from "./Gst";
+import Bureau from "./Bureau";
 
 const DocumentArea = ({currentStep, setCurrentstep}) => {
  
@@ -12,6 +16,7 @@ const DocumentArea = ({currentStep, setCurrentstep}) => {
         description:
           "Please upload clear copies of your PAN and Aadhar card to verify your identity. Ensure the documents are up-to-date and legible.",
       },
+      component: <Identification />
     },
     {
       id: 2,
@@ -21,6 +26,7 @@ const DocumentArea = ({currentStep, setCurrentstep}) => {
         description:
           "Upload your most recent financial statements covering the last fiscal year, including all assets, liabilities, income, and expenses.",
       },
+      component: <Financial />
     },
 
     {
@@ -31,6 +37,7 @@ const DocumentArea = ({currentStep, setCurrentstep}) => {
         description:
           "Upload your bank account statements for the past 6 months. Ensure that the statements are clear and include account details, transaction history, and balances.",
       },
+      component: <Bank />
     },
 
     {
@@ -41,6 +48,7 @@ const DocumentArea = ({currentStep, setCurrentstep}) => {
         description:
           "Please connect to your GST portal to automatically fetch your GST filings. This ensures we have accurate sales and tax data.",
       },
+      component: <Gst />
     },
 
     {
@@ -51,6 +59,7 @@ const DocumentArea = ({currentStep, setCurrentstep}) => {
         description:
           "Enter your PAN number to fetch your credit bureau report automatically. Click on 'Fetch Report' to retrieve the data from our external partner",
       },
+      component: <Bureau />
     },
   ];
 
@@ -78,7 +87,9 @@ const DocumentArea = ({currentStep, setCurrentstep}) => {
           <p className="text-[#8b8b8b] text-sm">
             {documentStep[currentStep - 1].content.description}
           </p>
-          <UploadDocument />
+          <div className="mt-4">
+            {documentStep[currentStep - 1].component}
+          </div>
         </div>
       </div>
     </>
