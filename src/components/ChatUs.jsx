@@ -5,7 +5,6 @@ import { FiSend } from "react-icons/fi";
 const ChatUs = () => {
   return (
     <div className="border-y-[1.5px] w-full sm:w-[90%] md:w-[70%] lg:w-[40%] xl:w-[27%] mx-auto ChatUS">
-      {" "}
       <h3 className="p-4 text-xl text-[#000000] font-bold">Chat with us</h3>
       <div className="flex justify-around items-center">
         <div className="w-16 sm:w-20 bg-[#f2f4f7] h-[1px]"></div>
@@ -13,9 +12,7 @@ const ChatUs = () => {
         <div className="w-16 sm:w-20 bg-[#f2f4f7] h-[1px]"></div>
       </div>
       <div className="flex relative sm:left-12 md:left-16 mt-4">
-        {" "}
         <p className="bg-[#00c062] rounded-lg p-3 w-[180px] sm:w-[207px] text-[#a9f1ce] text-xs">
-          {" "}
           I do not file GST. Is there any other alternative to that?
         </p>
         <MdOutlinePersonOutline className="text-sm bg-[#f2fbf7] text-[#a7aaa9] ml-2 p-2 w-8 h-8 sm:w-10 sm:h-10 rounded-full" />

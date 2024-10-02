@@ -23,7 +23,6 @@ const Welcome = () => {
               Show Progress <FaAngleRight className="mt-1" />
             </span>
           </div>
-
           <DocumentArea />
         </div>
       </div>
