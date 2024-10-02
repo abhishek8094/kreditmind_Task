@@ -34,7 +34,7 @@ const DocumentArea = () => {
             <div
               className={`border border-gray-300 text-nowrap p-2 text-xs text-[gray] font-semibold rounded-full ${
                 currentStep === document.id
-                  ? "bg-[#ebfef5] text-[#00c061] border-[#00c063]"
+                  ? "bg-[#ebfef5] text-[#00c060] border-[#00c064]"
                   : "bg-white"
               }`}
             >
