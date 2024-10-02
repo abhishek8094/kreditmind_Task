@@ -4,7 +4,7 @@ import { FiSend } from "react-icons/fi";
 
 const ChatUs = () => {
   return (
-    <div className="border-y-[1.5px] w-full sm:w-[45%] md:w-[70%] lg:w-[40%] xl:w-[27%] mx-auto">
+    <div className="border-y-[1.5px] w-full sm:w-[90%] md:w-[70%] lg:w-[40%] xl:w-[27%] mx-auto ChatUS">
       {" "}
       <h3 className="p-4 text-xl text-[#000000] font-bold">Chat with us</h3>
       <div className="flex justify-around items-center">
