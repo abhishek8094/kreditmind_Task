@@ -28,13 +28,13 @@ const DocumentArea = () => {
 
   return (
     <>
-      <div className="flex flex-wrap justify-between  mt-8">
+      <div className="flex flex-wrap justify-between mt-8">
         {documentStep.map((document, id) => (
           <div key={id} className="w-full md:w-auto ">
             <div
-              className={`border border-gray-300 text-nowrap p-2  text-xs text-[gray] font-semibold rounded-full ${
+              className={`border border-gray-300 text-nowrap p-2 text-xs text-[gray] font-semibold rounded-full ${
                 currentStep === document.id
-                  ? "bg-[#ebfef5] text-[#00c064] border-[#00c062]"
+                  ? "bg-[#ebfef5] text-[#00c061] border-[#00c063]"
                   : "bg-white"
               }`}
             >
